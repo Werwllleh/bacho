@@ -160,7 +160,7 @@ legend {
 
 /*==============================HEADER====================*/
 .header{
-
+    max-height: 116px;
 }
 
 .header__body {
@@ -168,7 +168,6 @@ legend {
     align-items: center;
     justify-content: space-between;
     padding: 32px 0;
-    max-height: 116px;
 }
 
 .header__left {
