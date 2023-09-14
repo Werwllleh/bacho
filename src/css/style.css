@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "CocoGothic-Bold";
+    src: local("CocoGothic-Bold"),
+    local("CocoGothic-Bold"),
+    url("../fonts/CocoGothic-Bold.woff2") format("woff2"),
+    url("../fonts/CocoGothic-Bold.woff") format("woff"),
+    url("../fonts/CocoGothic-Bold.eot") format("eot"),
+    url("../fonts/CocoGothic-Bold.eot") format("ttf");
+}
+
+@font-face {
+    font-family: "CocoGothic-Regular";
+    src: local("CocoGothic-Regular"),
+    local("CocoGothic-Regular"),
+    url("../fonts/CocoGothic-Regular.woff2") format("woff2"),
+    url("../fonts/CocoGothic-Regular.woff") format("woff"),
+    url("../fonts/CocoGothic-Regular.eot") format("eot"),
+    url("../fonts/CocoGothic-Regular.eot") format("ttf");
+}
+
+@font-face {
+    font-family: "Colus-Regular";
+    src: local("Colus-Regular"),
+    local("Colus-Regular"),
+    url("../fonts/Colus-Regular.woff2") format("woff2"),
+    url("../fonts/Colus-Regular.woff") format("woff"),
+    url("../fonts/Colus-Regular.eot") format("eot"),
+    url("../fonts/Colus-Regular.eot") format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: local("Roboto-Regular"),
+    local("Roboto-Regular"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.eot") format("eot"),
+    url("../fonts/Roboto-Regular.eot") format("ttf");
+}
+
+@font-face {
+    font-family: "RobotoMono-Regular";
+    src: local("RobotoMono-Regular"),
+    local("RobotoMono-Regular"),
+    url("../fonts/RobotoMono-Regular.woff2") format("woff2"),
+    url("../fonts/RobotoMono-Regular.woff") format("woff"),
+    url("../fonts/RobotoMono-Regular.eot") format("eot"),
+    url("../fonts/RobotoMono-Regular.eot") format("ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited {
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+/* Form */
+
+input, textarea, button, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+legend {
+    display: block;
+}
+
+
+/*========================================================*/
+
+.container {
+    position: relative;
+    max-width: 1470px;
+    padding: 0 15px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.primary-btn {
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #1C242E;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Coco Gothic', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    transition: .3s;
+}
+
+.primary-btn:hover {
+    background: #363D47;
+}
+
+/*==============================HEADER====================*/
+.header{
+
+}
+
+.header__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    max-height: 116px;
+}
+
+.header__left {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+.header__link {
+    color: #4F5761;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Coco Gothic', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.header__link {
+    color: #4F5761;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Coco Gothic', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.header__link:hover {
+    color: #292e32;
+}
+
+.header__logo {
+
+}
+
+.header__right {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.header__btn {
+    width: 220px;
+}
+
+/*=============================/HEADER====================*/
