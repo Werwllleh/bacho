@@ -9,12 +9,48 @@
     <title>Main</title>
 </head>
 <body>
+<div class="search__spoiler">
+    <div class="container">
+        <div class="search__spoiler-field">
+            <input class="search__input" type="text" placeholder="Search by catalog">
+            <img class="search__input-clean" src="./src/img/icons/close.svg">
+        </div>
+        <div class="searchable__answer">
+            <div class="not__found">
+                <div class="not__found-img">
+                    <img src="./src/img/icons/lama.svg" alt="lama">
+                </div>
+                <div class="not__found-text">
+                    No products found matching your search
+                </div>
+                <a href="#" class="not__found-btn btn primary-btn">Go to catalog</a>
+            </div>
+            <div class="content__row search__row">
+                <a href="#" class="row__card">
+                    <img class="product-img" src="./src/img/catalog/bear1.jpg" alt="bear1">
+                    <div class="product-name">Bear with basket</div>
+                    <div class="product-price">$ 000 000</div>
+                </a>
+                <a href="#" class="row__card">
+                    <img class="product-img" src="./src/img/catalog/bear2.jpg" alt="bear2">
+                    <div class="product-name">Two bears</div>
+                    <div class="product-price">$ 000 000</div>
+                </a>
+                <a href="#" class="row__card">
+                    <img class="product-img" src="./src/img/catalog/bear3.jpg" alt="bear3">
+                    <div class="product-name">Three bears</div>
+                    <div class="product-price">$ 000 000</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 <header class="header">
     <div class="container">
         <div class="header__body">
             <div class="header__left">
                 <a href="#" class="header__link">Topiary catalog</a>
-                <a href="#" class="header__link">Search</a>
+                <a href="#" id="searchBtn" class="header__link">Search</a>
             </div>
             <a href="#" class="header__logo">
                 <img src="./src/img/header/header-logo.svg">
@@ -28,14 +64,16 @@
 </header>
 <main class="main">
     <section class="section__main">
-        <div class="main__body">
-            <h1 class="main__title">Bacho factory's Topiary figures <br> For city parks, hotels and residential areas
-            </h1>
-            <p class="main__text txt-24">Over 600 items in stock. Worldwide delivery. The world's top topiary
-                producer</p>
-            <div class="main__buttons">
-                <a class="main__link btn primary-btn" href="#">Explore the full catalog</a>
-                <a class="main__link btn secondary-btn" href="#">Request a callback</a>
+        <div class="container">
+            <div class="main__body">
+                <h1 class="main__title">Bacho factory's Topiary figures <br> For city parks, hotels and residential areas
+                </h1>
+                <p class="main__text txt-24">Over 600 items in stock. Worldwide delivery. The world's top topiary
+                    producer</p>
+                <div class="main__buttons">
+                    <a class="main__link btn primary-btn" href="#">Explore the full catalog</a>
+                    <a class="main__link btn secondary-btn" href="#">Request a callback</a>
+                </div>
             </div>
         </div>
     </section>
