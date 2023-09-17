@@ -60,4 +60,4 @@ class SlideStories {
     }
 }
 
-new SlideStories('story-slider')
+// new SlideStories('story-slider')
