@@ -15,9 +15,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const switchSizes = document.querySelectorAll('.size__switch-btn');
     const switchFilterBtns = document.querySelectorAll('.product__footer-filter_btn');
 
+    const catalogCards = document.querySelectorAll('.row__card');
 
-
-
+    catalogCards.forEach((card) => {
+        card.addEventListener('mouseover', (e) => {
+            card.style.height = e.currentTarget.offsetHeight + 'px';
+        })
+        card.addEventListener('mouseout', (e) => {
+            card.style.removeProperty('height');
+        })
+    })
 
 
     catalogFilters.forEach((filter) => {
@@ -93,8 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     )
-
-
 
 
 })
