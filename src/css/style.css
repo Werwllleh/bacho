@@ -263,6 +263,8 @@ body.modal-open {
     cursor: pointer;
 }
 
+
+
 .header-burger span:nth-child(1) {
     top: 6px;
 }
@@ -291,6 +293,22 @@ body.modal-open {
     -o-transition: transform .3s ease;
     transition: transform .3s ease;
     transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.header-burger.burger-close span:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(4px, 4.9px);
+    -ms-transform: rotate(45deg) translate(4px, 4.9px);
+    transform: rotate(45deg) translate(4px, 4.9px);
+}
+
+.header-burger.burger-close span:nth-child(2) {
+    opacity: 0;
+}
+
+.header-burger.burger-close span:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translate(3.7px, -4.3px);
+    -ms-transform: rotate(-45deg) translate(3.7px, -4.3px);
+    transform: rotate(-45deg) translate(3.7px, -4.3px);
 }
 
 .menumobile {
@@ -358,6 +376,81 @@ body.modal-open {
 
 .menumobile.visible {
     opacity: 1;
+}
+
+.mobile-searchable-answer {
+
+}
+
+.mobile-searchable-answer .row__card{
+    flex: 1 1 100%;
+}
+
+.mobile-searchable-answer .not__found{
+    margin: 0 0 64px 0;
+}
+
+.mobile-searchable-answer .not__found-img img {
+    max-width: 150px;
+    width: 100%;
+}
+
+.mobile-searchable-answer .search__row{
+    margin: 0 0 32px 0;
+}
+
+.menumobile-categories {
+
+}
+
+.menumobile-categories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mobile-category {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mobile-category__img {
+    max-width: 64px;
+    width: 100%;
+}
+
+.mobile-category__name {
+    color: #363D47;
+    font-family: var(--font-coco-gothic);
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+}
+
+.menumobile-categories-bottom {
+    padding: 24px 0 32px 0;
+}
+
+.menumobile-categories-bottom a{
+    position: relative;
+    display: inline-block;
+    color: #363D47;
+    font-family: var(--font-coco-gothic);
+    font-size: 18px;
+    line-height: 24px; /* 133.333% */
+    padding: 0 19px 0 0;
+}
+
+.menumobile-categories-bottom a::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/icons/arrow_right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .menumobile-bottom {
@@ -1258,6 +1351,10 @@ body.modal-open {
     margin: 0 0 40px 0;
 }
 
+.mobile-card-name {
+    display: none;
+}
+
 .product__body{
     display: flex;
     justify-content: space-between;
@@ -1265,7 +1362,7 @@ body.modal-open {
 }
 
 .product__photos {
-
+    position: relative;
 }
 
 .simple__photos {
@@ -1279,8 +1376,8 @@ body.modal-open {
     position: relative;
 }
 .product__slider {
-    width: 800px;
-    height: 534px;
+    max-width: 800px;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -1323,10 +1420,18 @@ body.modal-open {
     width: 32px;
     height: 32px;
 }
+.mobile-live-photos__title {
+    color: #1C242E;
+    font-family: var(--font-colus);
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin: 0 0 32px 0;
+}
 
-
-
-
+.mobile-live-photos {
+    display: none;
+}
 
 
 .product__info {

@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     const toggleMobileMenu = () => {
+        burger.classList.toggle('burger-close');
         mobileMenu.classList.toggle('show');
         mobileMenu.classList.toggle('visible');
         document.querySelector('.menumobile-wrap').classList.toggle('visible');
