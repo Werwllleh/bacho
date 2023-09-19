@@ -966,16 +966,15 @@ body.modal-open {
 
 .row__card {
     position: relative;
-    border: 1px solid transparent;
     flex: 1 1 33.333%;
     display: flex;
     flex-direction: column;
 }
 
 .row__card-inner {
-    overflow: hidden;
     z-index: 2;
     background-color: #ffffff;
+    border: 1px solid transparent;
     padding: 12px;
 }
 
@@ -991,7 +990,7 @@ body.modal-open {
 
 .product-img {}
 
-.row__card:hover {
+.row__card:hover .row__card-inner{
     border: 1px solid #1C242E;
 }
 
