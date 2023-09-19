@@ -130,12 +130,14 @@
         display: none;
     }
     .catalog__body {
-        margin: 48px 0 0 0;
         padding: 48px 0 0 0;
         border-top: 1px solid #D8DBDE;
     }
     .catalog__slider {
         margin: 60px 0 0 0;
+    }
+    .mobile__filter-btn {
+        display: block;
     }
 }
 
@@ -174,6 +176,6 @@
 
     .catalog__slider {
         margin: 32px 0 0 0;
-        height: 232px;
+        height: 300px;
     }
 }

@@ -15,6 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const switchSizes = document.querySelectorAll('.size__switch-btn');
     const switchFilterBtns = document.querySelectorAll('.product__footer-filter_btn');
 
+
+
+
+
+
     catalogFilters.forEach((filter) => {
         filter.addEventListener('click', (e) => {
             if (e.target.id === 'size') {
@@ -88,6 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     )
+
 
 
 

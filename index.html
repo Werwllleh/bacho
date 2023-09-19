@@ -177,6 +177,8 @@
     </div>
 </header>
 
+<button type="button" class="mobile__filter-btn">Filters</button>
+
 
 <main class="main">
     <section class="catalog">
@@ -253,90 +255,90 @@
                 <div class="catalog__filter">
                     <div class="filter__body">
                         <div class="filter__field">
-                            <input class="filter__checkbox" id="size" type="checkbox" />
+                            <input class="filter__checkbox" id="size" type="checkbox"/>
                             <label class="filter__name" for="size">Size</label>
                         </div>
                         <div class="filter__field">
-                            <input class="filter__checkbox" id="category" type="checkbox" />
+                            <input class="filter__checkbox" id="category" type="checkbox"/>
                             <label class="filter__name" for="category">Category</label>
                         </div>
                         <div class="filter__field">
-                            <input class="filter__checkbox" id="sort" type="checkbox" />
+                            <input class="filter__checkbox" id="sort" type="checkbox"/>
                             <label class="filter__name" for="sort">Most popular</label>
                         </div>
                     </div>
                     <div class="filter__params">
                         <div data-filter="size" class="filter__data">
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="size1" type="checkbox" />
+                                <input class="param__checkbox" id="size1" type="checkbox"/>
                                 <label class="param__name" for="size1">up to 59 inches</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="size2" type="checkbox" />
+                                <input class="param__checkbox" id="size2" type="checkbox"/>
                                 <label class="param__name" for="size2">59-118 inches</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="size3" type="checkbox" />
+                                <input class="param__checkbox" id="size3" type="checkbox"/>
                                 <label class="param__name" for="size3">from 118 inches</label>
                             </div>
                         </div>
                         <div data-filter="category" class="filter__data">
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat1" type="checkbox" />
+                                <input class="param__checkbox" id="cat1" type="checkbox"/>
                                 <label class="param__name" for="cat1">Animals and birds</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat2" type="checkbox" />
+                                <input class="param__checkbox" id="cat2" type="checkbox"/>
                                 <label class="param__name" for="cat2">Houses</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat3" type="checkbox" />
+                                <input class="param__checkbox" id="cat3" type="checkbox"/>
                                 <label class="param__name" for="cat3">Sights</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat4" type="checkbox" />
+                                <input class="param__checkbox" id="cat4" type="checkbox"/>
                                 <label class="param__name" for="cat4">People</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat5" type="checkbox" />
+                                <input class="param__checkbox" id="cat5" type="checkbox"/>
                                 <label class="param__name" for="cat5">Dinosaurs</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat6" type="checkbox" />
+                                <input class="param__checkbox" id="cat6" type="checkbox"/>
                                 <label class="param__name" for="cat6">Mushrooms</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat7" type="checkbox" />
+                                <input class="param__checkbox" id="cat7" type="checkbox"/>
                                 <label class="param__name" for="cat7">Exclusive</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat8" type="checkbox" />
+                                <input class="param__checkbox" id="cat8" type="checkbox"/>
                                 <label class="param__name" for="cat8">Benches</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat9" type="checkbox" />
+                                <input class="param__checkbox" id="cat9" type="checkbox"/>
                                 <label class="param__name" for="cat9">Others</label>
                             </div>
                         </div>
                         <div data-filter="sort" class="filter__data">
                             <div class="filter__data-param sorting">
-                                <input class="param__checkbox sort" id="size1" type="checkbox" />
+                                <input class="param__checkbox sort" id="size1" type="checkbox"/>
                                 <label class="param__name" for="size1">Most popular</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="size2" type="checkbox" />
+                                <input class="param__checkbox sort" id="size2" type="checkbox"/>
                                 <label class="param__name" for="size2">Price: highest</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="size3" type="checkbox" />
+                                <input class="param__checkbox sort" id="size3" type="checkbox"/>
                                 <label class="param__name" for="size3">Price: lowest</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="size2" type="checkbox" />
+                                <input class="param__checkbox sort" id="size2" type="checkbox"/>
                                 <label class="param__name" for="size2">Size: larger</label>
                             </div>
                             <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="size3" type="checkbox" />
+                                <input class="param__checkbox sort" id="size3" type="checkbox"/>
                                 <label class="param__name" for="size3">Size: smaller</label>
                             </div>
                         </div>
@@ -695,6 +697,133 @@
         </div>
     </section>-->
 </main>
+<div class="mobile__filters">
+    <div class="mobile__filters-body">
+        <div class="mobile__filters-head">
+            <div class="mobile__filters-title">filters</div>
+            <img class="mobile__filters-close" src="./src/img/icons/close-button.svg" alt="close">
+        </div>
+        <div class="mobile__filters-groups">
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Selected filters</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__selected_params mobile__filters-selected">
+                        <div class="selected_param">
+                            <div class="selected_param-name">59-118 inches</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param">
+                            <div class="selected_param-name">Animals and birds</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param">
+                            <div class="selected_param-name">Dinosaurs</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param reset-param">
+                            <div class="selected_param-name">Reset all</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Sort by</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat1" type="checkbox">
+                        <label class="param__name" for="cat1">Animals and birds</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat2" type="checkbox">
+                        <label class="param__name" for="cat2">Houses</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat3" type="checkbox">
+                        <label class="param__name" for="cat3">Sights</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat4" type="checkbox">
+                        <label class="param__name" for="cat4">People</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Size</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat1" type="checkbox">
+                        <label class="param__name" for="cat1">Animals and birds</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat2" type="checkbox">
+                        <label class="param__name" for="cat2">Houses</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat3" type="checkbox">
+                        <label class="param__name" for="cat3">Sights</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat4" type="checkbox">
+                        <label class="param__name" for="cat4">People</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat5" type="checkbox">
+                        <label class="param__name" for="cat5">Dinosaurs</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat1" type="checkbox">
+                        <label class="param__name" for="cat1">Animals and birds</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat2" type="checkbox">
+                        <label class="param__name" for="cat2">Houses</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat3" type="checkbox">
+                        <label class="param__name" for="cat3">Sights</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat4" type="checkbox">
+                        <label class="param__name" for="cat4">People</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat5" type="checkbox">
+                        <label class="param__name" for="cat5">Dinosaurs</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Category</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat1" type="checkbox">
+                        <label class="param__name" for="cat1">Animals and birds</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat2" type="checkbox">
+                        <label class="param__name" for="cat2">Houses</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat3" type="checkbox">
+                        <label class="param__name" for="cat3">Sights</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat4" type="checkbox">
+                        <label class="param__name" for="cat4">People</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat5" type="checkbox">
+                        <label class="param__name" for="cat5">Dinosaurs</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile__filters-apply-btn btn primary-btn">
+            <div class="apply-btn-name">Apply filters</div>
+            <div class="apply-btn-count"><span>64</span> results</div>
+        </div>
+    </div>
+</div>
 </body>
 <script src="./src/js/script.js"></script>
 <script src="./src/js/slide-stories.js"></script>
@@ -726,5 +855,28 @@
             }
         }
     });
+
+
+    const body = document.querySelector('body');
+    const mobileFiltersBtn = document.querySelector('.mobile__filter-btn');
+    const mobileFilters = document.querySelector('.mobile__filters');
+    const mobileFilterApplyBtn = document.querySelector('.mobile__filters-apply-btn');
+    const mobileFilterCloseBtn = document.querySelector('.mobile__filters-close');
+
+    mobileFiltersBtn.addEventListener('click', (e) => {
+        mobileFilters.classList.add('mobile__filters-show');
+        body.classList.add('modal-open');
+    })
+
+    mobileFilterApplyBtn.addEventListener('click', (e) => {
+        mobileFilters.classList.remove('mobile__filters-show');
+        body.classList.remove('modal-open');
+    })
+
+    mobileFilterCloseBtn.addEventListener('click', (e) => {
+        mobileFilters.classList.remove('mobile__filters-show');
+        body.classList.remove('modal-open');
+    })
+
 </script>
 </html>
