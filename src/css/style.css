@@ -546,6 +546,8 @@ body.modal-open {
     width: 100%;
     transition: top .3s linear;
     background-color: #FFFFFF;
+    padding: 0 0 300px 0;
+    overflow-x: scroll;
 }
 
 .search__spoiler-field {
@@ -561,7 +563,7 @@ body.modal-open {
 }
 
 .show__spoiler {
-    top: 0;
+    top: 116px;
     z-index: 2;
 }
 
