@@ -749,8 +749,8 @@ body.modal-open {
 
 .preview__card-body {
     position: relative;
+    max-width: calc(50% - 12px);
     max-height: 710px;
-    max-width: 708px;
 }
 
 .preview__card-body:nth-child(3n) {
@@ -1112,6 +1112,8 @@ body.modal-open {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
+    /*background-image: url("../img/icons/tick.svg");*/
+    background-image: none;
 }
 
 .sort:checked+.param__name::before {
@@ -1428,6 +1430,10 @@ body.modal-open {
 
 .product__slider-body {
     position: relative;
+}
+
+[data-fancybox="product_images"] {
+    display: block;
 }
 
 .product__slider {

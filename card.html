@@ -1075,9 +1075,22 @@
 <script src="./src/js/fancybox.js"></script>
 
 <script type="module">
-    Fancybox.bind('[data-fancybox="product_images"]', {
-        // Your custom options
-    });
+
+    const fancyConfig = {
+        hideScrollbar: false,
+        buttons: [
+            // "zoom",
+            //"share",
+            //"slideShow",
+            //"fullScreen",
+            //"download",
+            "thumbs",
+            "close"
+        ],
+    }
+
+    Fancybox.bind('[data-fancybox="product_images"]', fancyConfig);
+
 
     new Swiper('.product__slider', {
         direction: 'horizontal',

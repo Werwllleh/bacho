@@ -1,5 +1,7 @@
-@media (max-width: 1500px) {
-
+@media (max-width: 1480px) {
+    .preview__card-body::after {
+        bottom: 4px;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -154,6 +156,12 @@
         display: block;
     }
     .preview__catalog-note {
+        font-size: 20px;
+    }
+    .preview__card-body {
+        max-width: 100%;
+    }
+    .preview__card-category {
         font-size: 20px;
     }
 }

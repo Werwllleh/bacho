@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const catalogCards = document.querySelectorAll('.row__card');
 
+
+
     catalogCards.forEach((card) => {
         card.addEventListener('mouseenter', (e) => {
             const self = e.currentTarget;
