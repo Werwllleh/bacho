@@ -16,9 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const catalogCards = document.querySelectorAll('.row__card');
 
-
-    console.log(window.innerWidth)
-
     catalogCards.forEach((card) => {
         card.addEventListener('mouseenter', (e) => {
             const self = e.currentTarget;
@@ -54,6 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBtn.addEventListener('click', () => {
         spoilerSearch.classList.toggle('show__spoiler');
         body.classList.toggle('modal-open');
+        spoilerSearchInputs.forEach((input) => {
+            input.focus()
+        })
     });
 
     spoilerSearchClean.forEach((btn) => {

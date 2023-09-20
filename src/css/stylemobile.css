@@ -1,3 +1,7 @@
+@media (max-width: 1500px) {
+
+}
+
 @media (max-width: 1400px) {
     .header__logo {
         display: none;
@@ -129,6 +133,10 @@
     .product__slider .swiper-pagination-bullets {
         bottom: -10px;
     }
+    .preview__card-about {
+        left: 20px;
+        bottom: 40px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -145,9 +153,14 @@
     .mobile__filter-btn {
         display: block;
     }
+    .preview__catalog-note {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 500px) {
+
+
     .menumobile-wrap {
         max-width: 100%;
     }
@@ -162,7 +175,9 @@
 }
 
 @media (max-width: 425px) {
-
+    .preview__catalog-link {
+        display: none;
+    }
     .product__slider .swiper-pagination-bullet {
         width: 30px;
     }
@@ -179,6 +194,7 @@
 
 
 @media (max-width: 375px) {
+
     .catalog__title {
         font-size: 24px;
         letter-spacing: 0.12px;
