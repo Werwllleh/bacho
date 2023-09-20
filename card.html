@@ -360,7 +360,6 @@
 </header>
 
 
-
 <div class="breadcrumbs card__breadcrumbs">
     <div class="container">
         <a href="/index.html">Home</a><span class="breadcrumbs__separator">/</span><span>Topiary catalog</span>
@@ -431,7 +430,8 @@
                         </div>
                     </div>
                     <div class="product__about">
-                        <p>Topiary is the art of designing and decorating the landscape. Not so long ago, the word "topiary"
+                        <p>Topiary is the art of designing and decorating the landscape. Not so long ago, the word
+                            "topiary"
                             meant only curly cutting of plants, but now this term is used much more widely.</p>
                         <p>Now "topiary" can be called both a plant designed in a certain way, and a small architectural
                             form - a figure in the form of an animal, a geometric figure or an entire composition.</p>
@@ -1076,20 +1076,23 @@
 
 <script type="module">
 
-    const fancyConfig = {
-        hideScrollbar: false,
-        buttons: [
-            // "zoom",
-            //"share",
-            //"slideShow",
-            //"fullScreen",
-            //"download",
-            "thumbs",
-            "close"
-        ],
-    }
+    const options = {
+        Toolbar: {
+            display: {
+                left: [],
+                middle: [],
+                right: [
+                    "close"
+                ],
+            },
+        },
+        Thumbs: {
+            type: "classic",
 
-    Fancybox.bind('[data-fancybox="product_images"]', fancyConfig);
+        },
+    };
+
+    Fancybox.bind('[data-fancybox="product_images"]', options);
 
 
     new Swiper('.product__slider', {
