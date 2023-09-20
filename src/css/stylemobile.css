@@ -64,6 +64,12 @@
     .row__card {
         flex: 0 1 50%;
     }
+    .row__card:hover .row__card-inner {
+        border: none;
+    }
+    .product-sizes {
+        display: none;
+    }
 }
 
 @media (max-width: 800px) {
@@ -148,6 +154,10 @@
 
     .row__card {
         flex: 1 1 100%;
+    }
+
+    .other__shape {
+        display: none;
     }
 }
 
