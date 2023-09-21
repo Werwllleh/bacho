@@ -1006,7 +1006,6 @@ body.modal-open {
 }
 
 .product-sizes__header {
-    margin: 12px 0 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -1288,6 +1287,7 @@ body.modal-open {
     font-family: var(--font-coco-gothic);
     font-size: 14px;
     line-height: 20px;
+    margin: 0 0 12px 0;
     /* 142.857% */
 }
 
