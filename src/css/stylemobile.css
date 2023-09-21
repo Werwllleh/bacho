@@ -164,6 +164,21 @@
     .preview__card-category {
         font-size: 20px;
     }
+    .sort + .param__name::before {
+        background-image: url(../img/icons/radio-button.svg);
+        background-size: 18px 18px;
+    }
+    .sort + .param__name:hover::before {
+        border: none;
+        background-image: url(../img/icons/radio-button-hover.svg);
+        background-size: 18px 18px;
+    }
+    .sort:checked + .param__name::before {
+        border: none;
+        background-image: url(../img/icons/radio-button-click.svg);
+        background-size: 18px 18px;
+    }
+
 }
 
 @media (max-width: 500px) {

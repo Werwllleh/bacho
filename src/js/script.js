@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const catalogCards = document.querySelectorAll('.row__card');
 
 
-
     catalogCards.forEach((card) => {
         card.addEventListener('mouseenter', (e) => {
             const self = e.currentTarget;
@@ -41,14 +40,36 @@ document.addEventListener('DOMContentLoaded', () => {
     catalogFilters.forEach((filter) => {
         filter.addEventListener('click', (e) => {
             if (e.target.id === 'size') {
+                document.querySelector('input#category').checked = false;
+                document.querySelector('input#sort').checked = false;
+                document.querySelector('[data-filter="sort"]').classList.remove('filer__data-show');
+                document.querySelector('[data-filter="category"]').classList.remove('filer__data-show');
                 document.querySelector('[data-filter="size"]').classList.toggle('filer__data-show');
             } else if (e.target.id === 'category') {
+                document.querySelector('input#size').checked = false;
+                document.querySelector('input#sort').checked = false;
+                document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
+                document.querySelector('[data-filter="sort"]').classList.remove('filer__data-show');
                 document.querySelector('[data-filter="category"]').classList.toggle('filer__data-show');
             } else {
+                document.querySelector('input#size').checked = false;
+                document.querySelector('input#category').checked = false;
+                document.querySelector('[data-filter="category"]').classList.remove('filer__data-show');
+                document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
                 document.querySelector('[data-filter="sort"]').classList.toggle('filer__data-show');
             }
         });
     });
+
+    const sortingRadioButtons = document.querySelectorAll('input[name=sort]');
+    const labelSort = document.querySelector('label[for=sort]');
+
+    sortingRadioButtons.forEach((sort) => {
+        sort.addEventListener('click', () => {
+            labelSort.innerHTML = document.querySelector("label[for='"+sort.id+"']").innerHTML;
+        })
+    })
+
 
     searchBtn.addEventListener('click', () => {
         spoilerSearch.classList.toggle('show__spoiler');

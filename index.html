@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/stylemobile.css">
     <link rel="stylesheet" href="./src/css/hoverslider.css">
@@ -14,1391 +14,1508 @@
 </head>
 
 <body>
-    <div class="search__spoiler">
-        <div class="container">
+<div class="search__spoiler">
+    <div class="container">
+        <div class="search__spoiler-field">
+            <input class="search__input" type="text" placeholder="Search by catalog">
+            <img class="search__input-clean clearSearchInput" src="./src/img/icons/close.svg">
+        </div>
+        <div class="searchable__answer">
+            <div class="not__found">
+                <div class="not__found-img">
+                    <img src="./src/img/icons/lama.svg" alt="lama">
+                </div>
+                <div class="not__found-text">
+                    No products found matching your search
+                </div>
+                <a href="#" class="not__found-btn btn primary-btn">Go to catalog</a>
+            </div>
+            <div class="content__row search__row">
+                <div class="row__card">
+                    <div class="row__card-inner">
+                        <a href="#">
+                            <div class="product-images">
+                                <div class="product__images-inner">
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-name">Bear with basket</div>
+                            <div class="product-price">$ 000 000</div>
+                        </a>
+                        <div class="product-sizes">
+                            <div class="product-sizes__inner">
+                                <div class="product-sizes__header">
+                                    <div class="product-sizes__header-title">Dimensions</div>
+                                    <div class="size__switches">
+                                        <div class="size__switch-btn inches">
+                                            inches
+                                        </div>
+                                        <div class="size__switch-btn metres">
+                                            metres
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sizes__table">
+                                    <div class="sizes">
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row__card">
+                    <div class="row__card-inner">
+                        <a href="#">
+                            <div class="product-images">
+                                <div class="product__images-inner">
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-name">Bear with basket</div>
+                            <div class="product-price">$ 000 000</div>
+                        </a>
+                        <div class="product-sizes">
+                            <div class="product-sizes__inner">
+                                <div class="product-sizes__header">
+                                    <div class="product-sizes__header-title">Dimensions</div>
+                                    <div class="size__switches">
+                                        <div class="size__switch-btn inches">
+                                            inches
+                                        </div>
+                                        <div class="size__switch-btn metres">
+                                            metres
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sizes__table">
+                                    <div class="sizes">
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row__card">
+                    <div class="row__card-inner">
+                        <a href="#">
+                            <div class="product-images">
+                                <div class="product__images-inner">
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                    <div class="product__images-column">
+                                        <div class="product-card__img-wrapper">
+                                            <div class="product-card__img">
+                                                <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                            </div>
+                                        </div>
+                                        <div class="product-card__column-btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-name">Bear with basket</div>
+                            <div class="product-price">$ 000 000</div>
+                        </a>
+                        <div class="product-sizes">
+                            <div class="product-sizes__inner">
+                                <div class="product-sizes__header">
+                                    <div class="product-sizes__header-title">Dimensions</div>
+                                    <div class="size__switches">
+                                        <div class="size__switch-btn inches">
+                                            inches
+                                        </div>
+                                        <div class="size__switch-btn metres">
+                                            metres
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sizes__table">
+                                    <div class="sizes">
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                        <div class="size__row">
+                                            <div class="size__row-name">Placeholder</div>
+                                            <div class="size__row-separator"></div>
+                                            <div class="size__row-size">00х00х00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menumobile">
+    <div class="menumobile-wrap">
+        <div class="menumobile-search">
             <div class="search__spoiler-field">
                 <input class="search__input" type="text" placeholder="Search by catalog">
-                <img class="search__input-clean clearSearchInput" src="./src/img/icons/close.svg">
+                <button class="btn__clear clearSearchInput" type="button">Clear</button>
             </div>
-            <div class="searchable__answer">
-                <div class="not__found">
-                    <div class="not__found-img">
-                        <img src="./src/img/icons/lama.svg" alt="lama">
-                    </div>
-                    <div class="not__found-text">
-                        No products found matching your search
-                    </div>
-                    <a href="#" class="not__found-btn btn primary-btn">Go to catalog</a>
+            <div class="searchable__answer mobile-searchable-answer">
+                <!--<div class="not__found">
+                <div class="not__found-img">
+                    <img src="./src/img/icons/lama.svg" alt="lama">
                 </div>
-                <div class="content__row search__row">
-                    <a href="./card.html" class="row__card">
-                        <div class="row__card-inner">
-                            <img class="product-img" src="./src/img/catalog/bear1.jpg" alt="bear1">
-                            <div class="product-name">Bear with basket</div>
-                            <div class="product-price">$ 000 000</div>
-                            <div class="product-sizes">
-                                <div class="product-sizes__inner">
-                                    <div class="size__switches">
-                                        <div class="size__switch inches">
-                                            inches
-                                        </div>
-                                        <div class="size__switch metres">
-                                            metres
-                                        </div>
-                                    </div>
-                                    <div class="sizes__table">
-                                        <div class="sizes">
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="./card.html" class="row__card">
-                        <div class="row__card-inner">
-                            <img class="product-img" src="./src/img/catalog/bear3.jpg" alt="bear1">
-                            <div class="product-name">Bear with basket</div>
-                            <div class="product-price">$ 000 000</div>
-                            <div class="product-sizes">
-                                <div class="product-sizes__inner">
-                                    <div class="size__switches">
-                                        <div class="size__switch inches">
-                                            inches
-                                        </div>
-                                        <div class="size__switch metres">
-                                            metres
-                                        </div>
-                                    </div>
-                                    <div class="sizes__table">
-                                        <div class="sizes">
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="./card.html" class="row__card">
-                        <div class="row__card-inner">
-                            <img class="product-img" src="./src/img/catalog/bear2.jpg" alt="bear1">
-                            <div class="product-name">Bear with basket</div>
-                            <div class="product-price">$ 000 000</div>
-                            <div class="product-sizes">
-                                <div class="product-sizes__inner">
-                                    <div class="size__switches">
-                                        <div class="size__switch inches">
-                                            inches
-                                        </div>
-                                        <div class="size__switch metres">
-                                            metres
-                                        </div>
-                                    </div>
-                                    <div class="sizes__table">
-                                        <div class="sizes">
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                            <div class="size__row">
-                                                <div class="size__row-name">Placeholder</div>
-                                                <span class="size__row-separator"></span>
-                                                <div class="size__row-size">00х00х00</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                <div class="not__found-text">
+                    No products found matching your search
                 </div>
+                <a href="#" class="not__found-btn btn primary-btn">Go to catalog</a>
             </div>
-        </div>
-    </div>
-    <div class="menumobile">
-        <div class="menumobile-wrap">
-            <div class="menumobile-search">
-                <div class="search__spoiler-field">
-                    <input class="search__input" type="text" placeholder="Search by catalog">
-                    <button class="btn__clear clearSearchInput" type="button">Clear</button>
-                </div>
-                <div class="searchable__answer mobile-searchable-answer">
-                    <!--<div class="not__found">
-                    <div class="not__found-img">
-                        <img src="./src/img/icons/lama.svg" alt="lama">
-                    </div>
-                    <div class="not__found-text">
-                        No products found matching your search
-                    </div>
-                    <a href="#" class="not__found-btn btn primary-btn">Go to catalog</a>
-                </div>
-                <div class="content__row search__row">
-                    <a href="./card.html" class="row__card">
-                        <img class="product-img" src="./src/img/catalog/bear1.jpg" alt="bear1">
-                        <div class="product-name">Bear with basket</div>
-                        <div class="product-price">$ 000 000</div>
-                    </a>
-                    <a href="./card.html" class="row__card">
-                        <img class="product-img" src="./src/img/catalog/bear2.jpg" alt="bear2">
-                        <div class="product-name">Two bears</div>
-                        <div class="product-price">$ 000 000</div>
-                    </a>
-                    <a href="./card.html" class="row__card">
-                        <img class="product-img" src="./src/img/catalog/bear3.jpg" alt="bear3">
-                        <div class="product-name">Three bears</div>
-                        <div class="product-price">$ 000 000</div>
-                    </a>
-                </div>-->
-                </div>
-            </div>
-            <div class="menumobile-categories">
-                <div class="menumobile-categories-list">
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/animals.jpg" alt="">
-                        <div class="mobile-category__name">Animals and birds</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/houses.jpg" alt="">
-                        <div class="mobile-category__name">Houses</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/sights.jpg" alt="">
-                        <div class="mobile-category__name">Sights</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/people.jpg" alt="">
-                        <div class="mobile-category__name">People</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
-                        <div class="mobile-category__name">Dinosaurs</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/mushrooms.jpg" alt="">
-                        <div class="mobile-category__name">Mushrooms</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/people.jpg" alt="">
-                        <div class="mobile-category__name">People</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
-                        <div class="mobile-category__name">Dinosaurs</div>
-                    </a>
-                    <a href="./card.html" class="mobile-category">
-                        <img class="mobile-category__img" src="./src/img/cats/mushrooms.jpg" alt="">
-                        <div class="mobile-category__name">Mushrooms</div>
-                    </a>
-                </div>
-                <div class="menumobile-categories-bottom">
-                    <a href="">Discover all</a>
-                </div>
-            </div>
-            <div class="menumobile-bottom">
-                <div class="menumobile-bottom_head">
-                    <h5>Contact us</h5>
-                    <a href="" class="menumobile-bottom_btn btn primary-btn">Request a callback</a>
-                </div>
-                <div class="menumobile-bottom_items">
-                    <div class="menumobile-bottom_item">
-                        <div class="menumobile-bottom_title">Sales center</div>
-                        <a class="menumobile-bottom_value" href="tel:(+1) 863.610.9999">(+1) 863.610.9999</a>
-                    </div>
-                    <br>
-                    <div class="menumobile-bottom_item">
-                        <div class="menumobile-bottom_title">General issues</div>
-                        <a class="menumobile-bottom_value" href="mailto:topiary@bacho.world">topiary@bacho.world</a>
-                    </div>
-                    <div class="menumobile-bottom_item">
-                        <div class="menumobile-bottom_title">Adress</div>
-                        <div class="menumobile-bottom_value">1919 TAYLOR STREET STE F, HOUSTON, TEXAS 77007</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <header class="header">
-        <div class="container">
-            <div class="header__body">
-                <div class="header__left">
-                    <a href="#" class="header__link">Topiary catalog</a>
-                    <a href="#" id="searchBtn" class="header__link">Search</a>
-                </div>
-                <a href="#" class="center-logo">
-                    <img src="./src/img/header/header-logo.svg">
+            <div class="content__row search__row">
+                <a href="./card.html" class="row__card">
+                    <img class="product-img" src="./src/img/catalog/bear1.jpg" alt="bear1">
+                    <div class="product-name">Bear with basket</div>
+                    <div class="product-price">$ 000 000</div>
                 </a>
-                <div class="header__right">
-                    <div class="header__right-desc">
-                        <a href="#" class="header__logo">
-                            <img src="./src/img/header/header-logo.svg">
-                        </a>
-                        <a href="tel:+18636109999" class="header__link">(+1) 863 610 9999</a>
-                        <a href="#" class="header__btn btn primary-btn">Contact us</a>
-                    </div>
-                    <div class="header-burger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
+                <a href="./card.html" class="row__card">
+                    <img class="product-img" src="./src/img/catalog/bear2.jpg" alt="bear2">
+                    <div class="product-name">Two bears</div>
+                    <div class="product-price">$ 000 000</div>
+                </a>
+                <a href="./card.html" class="row__card">
+                    <img class="product-img" src="./src/img/catalog/bear3.jpg" alt="bear3">
+                    <div class="product-name">Three bears</div>
+                    <div class="product-price">$ 000 000</div>
+                </a>
+            </div>-->
             </div>
         </div>
-    </header>
-
-    <button type="button" class="mobile__filter-btn">Filters</button>
-
-
-    <main class="main">
-        <section class="preview__catalog">
-            <div class="preview__catalog-body">
-                <div class="container">
-                    <div class="preview__catalog-header">
-                        <div class="preview__catalog-note">You can purchase <br> a topiary of any shape</div>
-                        <a href="#" class="preview__catalog-link">Discover all</a>
-                    </div>
-                    <div class="preview__cards">
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Houses</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/houses.jpg" alt="Houses">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">People</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/people.jpg" alt="People">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Animals and birds</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/animals-birds.jpg"
-                                 alt="Animals and birds">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Sights</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/sights.jpg" alt="Sights">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Mushrooms</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/mushrooms.jpg" alt="Mushrooms">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Dinosaurs</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/dinosaurs.jpg" alt="Dinosaurs">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Exclusive</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/exclusive.jpg" alt="Exclusive">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Benches</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/benches.jpg" alt="Benches">
-                        </a>
-                        <a href="#" class="preview__card-body">
-                            <div class="preview__card-about">
-                                <div class="preview__card-category">Others</div>
-                                <div class="preview__card-count">
-                                    XX items<span>·</span>from $ 0000
-                                </div>
-                            </div>
-                            <img class="preview__card-bg" src="./src/img/prev_catalog/others.jpg" alt="Others">
-                        </a>
-
-                    </div>
-                    <a href="#" class="preview__catalog-btn btn primary-btn">Go to catalog</a>
-                </div>
+        <div class="menumobile-categories">
+            <div class="menumobile-categories-list">
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/animals.jpg" alt="">
+                    <div class="mobile-category__name">Animals and birds</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/houses.jpg" alt="">
+                    <div class="mobile-category__name">Houses</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/sights.jpg" alt="">
+                    <div class="mobile-category__name">Sights</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/people.jpg" alt="">
+                    <div class="mobile-category__name">People</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
+                    <div class="mobile-category__name">Dinosaurs</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/mushrooms.jpg" alt="">
+                    <div class="mobile-category__name">Mushrooms</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/people.jpg" alt="">
+                    <div class="mobile-category__name">People</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
+                    <div class="mobile-category__name">Dinosaurs</div>
+                </a>
+                <a href="./card.html" class="mobile-category">
+                    <img class="mobile-category__img" src="./src/img/cats/mushrooms.jpg" alt="">
+                    <div class="mobile-category__name">Mushrooms</div>
+                </a>
             </div>
-        </section>
-        <section class="catalog">
-            <div class="breadcrumbs catalog__breadcrumbs">
-                <div class="container">
-                    <a href="/index.html">Home</a><span class="breadcrumbs__separator">/</span><span>Topiary
-                        catalog</span>
-                </div>
-            </div>
-            <h1 class="catalog__title">Topiary catalog</h1>
-            <div class="slider__wrapper catalog__slider">
-                <div class="container">
-                    <div class="category__slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/animals.jpg" alt="">
-                                    <div class="catogory__name">Animals and birds</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/houses.jpg" alt="">
-                                    <div class="catogory__name">Houses</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/sights.jpg" alt="">
-                                    <div class="catogory__name">Sights</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/people.jpg" alt="">
-                                    <div class="catogory__name">People</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
-                                    <div class="catogory__name">Dinosaurs</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
-                                    <div class="catogory__name">Mushrooms</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/people.jpg" alt="">
-                                    <div class="catogory__name">People</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
-                                    <div class="catogory__name">Dinosaurs</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
-                                    <div class="catogory__name">Mushrooms</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="catalog__body">
-                <div class="container">
-                    <div class="catalog__filter">
-                        <div class="filter__body">
-                            <div class="filter__field">
-                                <input class="filter__checkbox" id="size" type="checkbox" />
-                                <label class="filter__name" for="size">Size</label>
-                            </div>
-                            <div class="filter__field">
-                                <input class="filter__checkbox" id="category" type="checkbox" />
-                                <label class="filter__name" for="category">Category</label>
-                            </div>
-                            <div class="filter__field">
-                                <input class="filter__checkbox" id="sort" type="checkbox" />
-                                <label class="filter__name" for="sort">Most popular</label>
-                            </div>
-                        </div>
-                        <div class="filter__params">
-                            <div data-filter="size" class="filter__data">
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="size1" type="checkbox" />
-                                    <label class="param__name" for="size1">up to 59 inches</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="size2" type="checkbox" />
-                                    <label class="param__name" for="size2">59-118 inches</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="size3" type="checkbox" />
-                                    <label class="param__name" for="size3">from 118 inches</label>
-                                </div>
-                            </div>
-                            <div data-filter="category" class="filter__data">
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat1" type="checkbox" />
-                                    <label class="param__name" for="cat1">Animals and birds</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat2" type="checkbox" />
-                                    <label class="param__name" for="cat2">Houses</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat3" type="checkbox" />
-                                    <label class="param__name" for="cat3">Sights</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat4" type="checkbox" />
-                                    <label class="param__name" for="cat4">People</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat5" type="checkbox" />
-                                    <label class="param__name" for="cat5">Dinosaurs</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat6" type="checkbox" />
-                                    <label class="param__name" for="cat6">Mushrooms</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat7" type="checkbox" />
-                                    <label class="param__name" for="cat7">Exclusive</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat8" type="checkbox" />
-                                    <label class="param__name" for="cat8">Benches</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox" id="cat9" type="checkbox" />
-                                    <label class="param__name" for="cat9">Others</label>
-                                </div>
-                            </div>
-                            <div data-filter="sort" class="filter__data">
-                                <div class="filter__data-param sorting">
-                                    <input class="param__checkbox sort" id="sort1" type="checkbox" />
-                                    <label class="param__name" for="sort1">Most popular</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox sort" id="sort2" type="checkbox" />
-                                    <label class="param__name" for="sort2">Price: highest</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox sort" id="sort3" type="checkbox" />
-                                    <label class="param__name" for="sort3">Price: lowest</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox sort" id="sort4" type="checkbox" />
-                                    <label class="param__name" for="sort4">Size: larger</label>
-                                </div>
-                                <div class="filter__data-param">
-                                    <input class="param__checkbox sort" id="sort5" type="checkbox" />
-                                    <label class="param__name" for="sort5">Size: smaller</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filter__selected_params">
-                            <div class="selected_param">
-                                <div class="selected_param-name">59-118 inches</div>
-                                <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
-                            </div>
-                            <div class="selected_param">
-                                <div class="selected_param-name">Animals and birds</div>
-                                <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
-                            </div>
-                            <div class="selected_param">
-                                <div class="selected_param-name">Dinosaurs</div>
-                                <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
-                            </div>
-                            <div class="selected_param reset-param">
-                                <div class="selected_param-name">Reset all</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content__row">
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="./card.html" class="row__card">
-                            <div class="row__card-inner">
-                                <div class="product-images">
-                                    <div class="product__images-inner">
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                        <div class="product__images-column">
-                                            <div class="product-card__img-wrapper">
-                                                <div class="product-card__img">
-                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
-                                                </div>
-                                            </div>
-                                            <div class="product-card__column-btn"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-name">Bear with basket</div>
-                                <div class="product-price">$ 000 000</div>
-                                <div class="product-sizes">
-                                    <div class="product-sizes__inner">
-                                        <div class="size__switches">
-                                            <div class="size__switch inches">
-                                                inches
-                                            </div>
-                                            <div class="size__switch metres">
-                                                metres
-                                            </div>
-                                        </div>
-                                        <div class="sizes__table">
-                                            <div class="sizes">
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                                <div class="size__row">
-                                                    <div class="size__row-name">Placeholder</div>
-                                                    <span class="size__row-separator"></span>
-                                                    <div class="size__row-size">00х00х00</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="catalog__footer">
-                        <div class="catalog__footer-count">
-                            You've viewed <span>27</span> of <span>100</span> products
-                        </div>
-                        <div class="catalog__footer-progress"></div>
-                        <a href="#" class="catalog__footer-btn btn primary-btn">Show more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="other__shape">
-            <div class="slider__wrapper other__shape_slider">
-                <div class="container">
-                    <div class="other__shape-title">
-                        Other shape of topiary
-                    </div>
-                    <div class="category__slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/animals.jpg" alt="">
-                                    <div class="catogory__name">Animals and birds</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/houses.jpg" alt="">
-                                    <div class="catogory__name">Houses</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/sights.jpg" alt="">
-                                    <div class="catogory__name">Sights</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/people.jpg" alt="">
-                                    <div class="catogory__name">People</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
-                                    <div class="catogory__name">Dinosaurs</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
-                                    <div class="catogory__name">Mushrooms</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/people.jpg" alt="">
-                                    <div class="catogory__name">People</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
-                                    <div class="catogory__name">Dinosaurs</div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./card.html" class="category__card">
-                                    <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
-                                    <div class="catogory__name">Mushrooms</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="menumobile-categories-bottom">
+                <a href="">Discover all</a>
             </div>
         </div>
-
-        <!--<section class="section__main">
-        <div class="container">
-            <div class="main__body">
-                <h1 class="main__title">Bacho factory's Topiary figures <br> For city parks, hotels and residential areas
-                </h1>
-                <p class="main__text txt-24">Over 600 items in stock. Worldwide delivery. The world's top topiary
-                    producer</p>
-                <div class="main__buttons">
-                    <a class="main__link btn primary-btn" href="#">Explore the full catalog</a>
-                    <a class="main__link btn secondary-btn" href="#">Request a callback</a>
+        <div class="menumobile-bottom">
+            <div class="menumobile-bottom_head">
+                <h5>Contact us</h5>
+                <a href="" class="menumobile-bottom_btn btn primary-btn">Request a callback</a>
+            </div>
+            <div class="menumobile-bottom_items">
+                <div class="menumobile-bottom_item">
+                    <div class="menumobile-bottom_title">Sales center</div>
+                    <a class="menumobile-bottom_value" href="tel:(+1) 863.610.9999">(+1) 863.610.9999</a>
+                </div>
+                <br>
+                <div class="menumobile-bottom_item">
+                    <div class="menumobile-bottom_title">General issues</div>
+                    <a class="menumobile-bottom_value" href="mailto:topiary@bacho.world">topiary@bacho.world</a>
+                </div>
+                <div class="menumobile-bottom_item">
+                    <div class="menumobile-bottom_title">Adress</div>
+                    <div class="menumobile-bottom_value">1919 TAYLOR STREET STE F, HOUSTON, TEXAS 77007</div>
                 </div>
             </div>
-        </div>
-    </section>-->
-
-        <!--<section class="section__slider">
-        <div class="container">
-            <h3 class="story__slider-title">Bacho factory is a family business that has been manufacturing topiaries
-                since 2012 that are durable and maintenance-free in all climatic conditions</h3>
-            <div class="story__slider-body">
-                <div data-slide="story-slider" class="story-slider">
-                    <div class="slide-items">
-                        <img src="./src/img/slider/slide.jpg" alt="slide 1">
-                        <img src="./src/img/slider/slide2.jpg" alt="slide 2">
-                        <img src="./src/img/slider/slide.jpg" alt="slide 3">
-                        <img src="./src/img/slider/slide2.jpg" alt="slide 4">
-                        <img src="./src/img/slider/slide.jpg" alt="slide 5">
-                        <img src="./src/img/slider/slide2.jpg" alt="slide 6">
-                        <img src="./src/img/slider/slide.jpg" alt="slide 7">
-                        <img src="./src/img/slider/slide2.jpg" alt="slide 8">
-                    </div>
-                    <nav class="slide-nav">
-                        <div class="slide-thumbs"></div>
-                        <button class="slide-prev">Previous</button>
-                        <button class="slide-next">Next</button>
-                    </nav>
-                </div>
-            </div>
-            <div class="story__slider-text">
-                <p>We'll help you to make your garden a real masterpiece of landscape design, <br> create an incredible
-                    atmosphere of comfort and beauty on your territory</p>
-                <p>The modern design approach has transformed figures into art, showing the widest opportunities in the
-                    organization of natural space and the development of garden culture and park spaces</p>
-            </div>
-        </div>
-    </section>-->
-    </main>
-    <div class="mobile__filters">
-        <div class="mobile__filters-body">
-            <div class="mobile__filters-head">
-                <div class="mobile__filters-title">filters</div>
-                <img class="mobile__filters-close" src="./src/img/icons/close-button.svg" alt="close">
-            </div>
-            <div class="mobile__filters-groups">
-                <div class="mobile__filters-group">
-                    <div class="mobile__filters-group-name">Selected filters</div>
-                    <div class="mobile__filters-value">
-                        <div class="filter__selected_params mobile__filters-selected">
-                            <div class="selected_param">
-                                <div class="selected_param-name">59-118 inches</div>
-                                <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
-                            </div>
-                            <div class="selected_param">
-                                <div class="selected_param-name">Animals and birds</div>
-                                <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
-                            </div>
-                            <div class="selected_param">
-                                <div class="selected_param-name">Dinosaurs</div>
-                                <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
-                            </div>
-                            <div class="selected_param reset-param">
-                                <div class="selected_param-name">Reset all</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mobile__filters-group">
-                    <div class="mobile__filters-group-name">Sort by</div>
-                    <div class="mobile__filters-value">
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat1" type="checkbox">
-                            <label class="param__name" for="cat1">Animals and birds</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat2" type="checkbox">
-                            <label class="param__name" for="cat2">Houses</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat3" type="checkbox">
-                            <label class="param__name" for="cat3">Sights</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat4" type="checkbox">
-                            <label class="param__name" for="cat4">People</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="mobile__filters-group">
-                    <div class="mobile__filters-group-name">Size</div>
-                    <div class="mobile__filters-value">
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat1" type="checkbox">
-                            <label class="param__name" for="cat1">Animals and birds</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat2" type="checkbox">
-                            <label class="param__name" for="cat2">Houses</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat3" type="checkbox">
-                            <label class="param__name" for="cat3">Sights</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat4" type="checkbox">
-                            <label class="param__name" for="cat4">People</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat5" type="checkbox">
-                            <label class="param__name" for="cat5">Dinosaurs</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat1" type="checkbox">
-                            <label class="param__name" for="cat1">Animals and birds</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat2" type="checkbox">
-                            <label class="param__name" for="cat2">Houses</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat3" type="checkbox">
-                            <label class="param__name" for="cat3">Sights</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat4" type="checkbox">
-                            <label class="param__name" for="cat4">People</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat5" type="checkbox">
-                            <label class="param__name" for="cat5">Dinosaurs</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="mobile__filters-group">
-                    <div class="mobile__filters-group-name">Category</div>
-                    <div class="mobile__filters-value">
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat1" type="checkbox">
-                            <label class="param__name" for="cat1">Animals and birds</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat2" type="checkbox">
-                            <label class="param__name" for="cat2">Houses</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat3" type="checkbox">
-                            <label class="param__name" for="cat3">Sights</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat4" type="checkbox">
-                            <label class="param__name" for="cat4">People</label>
-                        </div>
-                        <div class="filter__data-param mobile-filter-param">
-                            <input class="param__checkbox" id="cat5" type="checkbox">
-                            <label class="param__name" for="cat5">Dinosaurs</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mobile__filters-apply-btn btn primary-btn">
-            <div class="apply-btn-name">Apply filters</div>
-            <div class="apply-btn-count"><span>64</span> results</div>
         </div>
     </div>
+</div>
+<header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__left">
+                <a href="#" class="header__link">Topiary catalog</a>
+                <a href="#" id="searchBtn" class="header__link">Search</a>
+            </div>
+            <a href="#" class="center-logo">
+                <img src="./src/img/header/header-logo.svg">
+            </a>
+            <div class="header__right">
+                <div class="header__right-desc">
+                    <a href="#" class="header__logo">
+                        <img src="./src/img/header/header-logo.svg">
+                    </a>
+                    <a href="tel:+18636109999" class="header__link">(+1) 863 610 9999</a>
+                    <a href="#" class="header__btn btn primary-btn">Contact us</a>
+                </div>
+                <div class="header-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<button type="button" class="mobile__filter-btn">Filters</button>
+
+
+<main class="main">
+    <section class="preview__catalog">
+        <div class="preview__catalog-body">
+            <div class="container">
+                <div class="preview__catalog-header">
+                    <div class="preview__catalog-note">You can purchase <br> a topiary of any shape</div>
+                    <a href="#" class="preview__catalog-link">Discover all</a>
+                </div>
+                <div class="preview__cards">
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Houses</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/houses.jpg" alt="Houses">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">People</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/people.jpg" alt="People">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Animals and birds</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/animals-birds.jpg"
+                             alt="Animals and birds">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Sights</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/sights.jpg" alt="Sights">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Mushrooms</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/mushrooms.jpg" alt="Mushrooms">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Dinosaurs</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/dinosaurs.jpg" alt="Dinosaurs">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Exclusive</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/exclusive.jpg" alt="Exclusive">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Benches</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/benches.jpg" alt="Benches">
+                    </a>
+                    <a href="#" class="preview__card-body">
+                        <div class="preview__card-about">
+                            <div class="preview__card-category">Others</div>
+                            <div class="preview__card-count">
+                                XX items<span>·</span>from $ 0000
+                            </div>
+                        </div>
+                        <img class="preview__card-bg" src="./src/img/prev_catalog/others.jpg" alt="Others">
+                    </a>
+
+                </div>
+                <a href="#" class="preview__catalog-btn btn primary-btn">Go to catalog</a>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="breadcrumbs catalog__breadcrumbs">
+            <div class="container">
+                <a href="/index.html">Home</a><span class="breadcrumbs__separator">/</span><span>Topiary
+                        catalog</span>
+            </div>
+        </div>
+        <h1 class="catalog__title">Topiary catalog</h1>
+        <div class="slider__wrapper catalog__slider">
+            <div class="container">
+                <div class="category__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/animals.jpg" alt="">
+                                <div class="catogory__name">Animals and birds</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/houses.jpg" alt="">
+                                <div class="catogory__name">Houses</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/sights.jpg" alt="">
+                                <div class="catogory__name">Sights</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/people.jpg" alt="">
+                                <div class="catogory__name">People</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
+                                <div class="catogory__name">Dinosaurs</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
+                                <div class="catogory__name">Mushrooms</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/people.jpg" alt="">
+                                <div class="catogory__name">People</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
+                                <div class="catogory__name">Dinosaurs</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
+                                <div class="catogory__name">Mushrooms</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__body">
+            <div class="container">
+                <div class="catalog__filter">
+                    <div class="filter__body">
+                        <div class="filter__field">
+                            <input class="filter__checkbox" id="size" type="checkbox"/>
+                            <label class="filter__name" for="size">Size</label>
+                        </div>
+                        <div class="filter__field">
+                            <input class="filter__checkbox" id="category" type="checkbox"/>
+                            <label class="filter__name" for="category">Category</label>
+                        </div>
+                        <div class="filter__field">
+                            <input class="filter__checkbox" id="sort" type="checkbox"/>
+                            <label class="filter__name" for="sort">Most popular</label>
+                        </div>
+                    </div>
+                    <div class="filter__params">
+                        <div data-filter="size" class="filter__data">
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="size1" type="checkbox"/>
+                                <label class="param__name" for="size1">up to 59 inches</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="size2" type="checkbox"/>
+                                <label class="param__name" for="size2">59-118 inches</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="size3" type="checkbox"/>
+                                <label class="param__name" for="size3">from 118 inches</label>
+                            </div>
+                        </div>
+                        <div data-filter="category" class="filter__data">
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat1" type="checkbox"/>
+                                <label class="param__name" for="cat1">Animals and birds</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat2" type="checkbox"/>
+                                <label class="param__name" for="cat2">Houses</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat3" type="checkbox"/>
+                                <label class="param__name" for="cat3">Sights</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat4" type="checkbox"/>
+                                <label class="param__name" for="cat4">People</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat5" type="checkbox"/>
+                                <label class="param__name" for="cat5">Dinosaurs</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat6" type="checkbox"/>
+                                <label class="param__name" for="cat6">Mushrooms</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat7" type="checkbox"/>
+                                <label class="param__name" for="cat7">Exclusive</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat8" type="checkbox"/>
+                                <label class="param__name" for="cat8">Benches</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox" id="cat9" type="checkbox"/>
+                                <label class="param__name" for="cat9">Others</label>
+                            </div>
+                        </div>
+                        <div data-filter="sort" class="filter__data">
+                            <div class="filter__data-param">
+                                <input class="param__checkbox sort" id="sort1" checked type="radio" name="sort"/>
+                                <label class="param__name" for="sort1">Most popular</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox sort" id="sort2" type="radio" name="sort"/>
+                                <label class="param__name" for="sort2">Price: highest</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox sort" id="sort3" type="radio" name="sort"/>
+                                <label class="param__name" for="sort3">Price: lowest</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox sort" id="sort4" type="radio" name="sort"/>
+                                <label class="param__name" for="sort4">Size: larger</label>
+                            </div>
+                            <div class="filter__data-param">
+                                <input class="param__checkbox sort" id="sort5" type="radio" name="sort"/>
+                                <label class="param__name" for="sort5">Size: smaller</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter__selected_params">
+                        <div class="selected_param">
+                            <div class="selected_param-name">59-118 inches</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param">
+                            <div class="selected_param-name">Animals and birds</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param">
+                            <div class="selected_param-name">Dinosaurs</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param reset-param">
+                            <div class="selected_param-name">Reset all</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__row">
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__card">
+                        <div class="row__card-inner">
+                            <a href="./card.html">
+                                <div class="product-images">
+                                    <div class="product__images-inner">
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear2.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear1.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                        <div class="product__images-column">
+                                            <div class="product-card__img-wrapper">
+                                                <div class="product-card__img">
+                                                    <img src="./src/img/catalog/bear3.jpg" alt="bear1">
+                                                </div>
+                                            </div>
+                                            <div class="product-card__column-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Bear with basket</div>
+                                <div class="product-price">$ 000 000</div>
+                            </a>
+                            <div class="product-sizes">
+                                <div class="product-sizes__inner">
+                                    <div class="product-sizes__header">
+                                        <div class="product-sizes__header-title">Dimensions</div>
+                                        <div class="size__switches">
+                                            <div class="size__switch-btn inches">
+                                                inches
+                                            </div>
+                                            <div class="size__switch-btn metres">
+                                                metres
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sizes__table">
+                                        <div class="sizes">
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                            <div class="size__row">
+                                                <div class="size__row-name">Placeholder</div>
+                                                <div class="size__row-separator"></div>
+                                                <div class="size__row-size">00х00х00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog__footer">
+                    <div class="catalog__footer-count">
+                        You've viewed <span>27</span> of <span>100</span> products
+                    </div>
+                    <div class="catalog__footer-progress"></div>
+                    <a href="#" class="catalog__footer-btn btn primary-btn">Show more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="other__shape">
+        <div class="slider__wrapper other__shape_slider">
+            <div class="container">
+                <div class="other__shape-title">
+                    Other shape of topiary
+                </div>
+                <div class="category__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/animals.jpg" alt="">
+                                <div class="catogory__name">Animals and birds</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/houses.jpg" alt="">
+                                <div class="catogory__name">Houses</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/sights.jpg" alt="">
+                                <div class="catogory__name">Sights</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/people.jpg" alt="">
+                                <div class="catogory__name">People</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
+                                <div class="catogory__name">Dinosaurs</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
+                                <div class="catogory__name">Mushrooms</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/people.jpg" alt="">
+                                <div class="catogory__name">People</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/dinosaurs.jpg" alt="">
+                                <div class="catogory__name">Dinosaurs</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./card.html" class="category__card">
+                                <img class="category__img" src="./src/img/cats/mushrooms.jpg" alt="">
+                                <div class="catogory__name">Mushrooms</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<section class="section__main">
+    <div class="container">
+        <div class="main__body">
+            <h1 class="main__title">Bacho factory's Topiary figures <br> For city parks, hotels and residential areas
+            </h1>
+            <p class="main__text txt-24">Over 600 items in stock. Worldwide delivery. The world's top topiary
+                producer</p>
+            <div class="main__buttons">
+                <a class="main__link btn primary-btn" href="#">Explore the full catalog</a>
+                <a class="main__link btn secondary-btn" href="#">Request a callback</a>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+    <!--<section class="section__slider">
+    <div class="container">
+        <h3 class="story__slider-title">Bacho factory is a family business that has been manufacturing topiaries
+            since 2012 that are durable and maintenance-free in all climatic conditions</h3>
+        <div class="story__slider-body">
+            <div data-slide="story-slider" class="story-slider">
+                <div class="slide-items">
+                    <img src="./src/img/slider/slide.jpg" alt="slide 1">
+                    <img src="./src/img/slider/slide2.jpg" alt="slide 2">
+                    <img src="./src/img/slider/slide.jpg" alt="slide 3">
+                    <img src="./src/img/slider/slide2.jpg" alt="slide 4">
+                    <img src="./src/img/slider/slide.jpg" alt="slide 5">
+                    <img src="./src/img/slider/slide2.jpg" alt="slide 6">
+                    <img src="./src/img/slider/slide.jpg" alt="slide 7">
+                    <img src="./src/img/slider/slide2.jpg" alt="slide 8">
+                </div>
+                <nav class="slide-nav">
+                    <div class="slide-thumbs"></div>
+                    <button class="slide-prev">Previous</button>
+                    <button class="slide-next">Next</button>
+                </nav>
+            </div>
+        </div>
+        <div class="story__slider-text">
+            <p>We'll help you to make your garden a real masterpiece of landscape design, <br> create an incredible
+                atmosphere of comfort and beauty on your territory</p>
+            <p>The modern design approach has transformed figures into art, showing the widest opportunities in the
+                organization of natural space and the development of garden culture and park spaces</p>
+        </div>
+    </div>
+</section>-->
+</main>
+<div class="mobile__filters">
+    <div class="mobile__filters-head">
+        <div class="mobile__filters-title">filters</div>
+        <img class="mobile__filters-close" src="./src/img/icons/close-button.svg" alt="close">
+    </div>
+    <div class="mobile__filters-body">
+        <div class="mobile__filters-groups">
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Selected filters</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__selected_params mobile__filters-selected">
+                        <div class="selected_param">
+                            <div class="selected_param-name">59-118 inches</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param">
+                            <div class="selected_param-name">Animals and birds</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param">
+                            <div class="selected_param-name">Dinosaurs</div>
+                            <img class="selected_param-delete" src="./src/img/icons/del_param.svg" alt="">
+                        </div>
+                        <div class="selected_param reset-param">
+                            <div class="selected_param-name">Reset all</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Sort by</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox sort" id="sort1" checked type="radio" name="sort"/>
+                        <label class="param__name" for="sort1">Most popular</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox sort" id="sort2" type="radio" name="sort"/>
+                        <label class="param__name" for="sort2">Price: highest</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox sort" id="sort3" type="radio" name="sort"/>
+                        <label class="param__name" for="sort3">Price: lowest</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox sort" id="sort4" type="radio" name="sort"/>
+                        <label class="param__name" for="sort4">Size: larger</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox sort" id="sort5" type="radio" name="sort"/>
+                        <label class="param__name" for="sort5">Size: smaller</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Size</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat1" type="checkbox">
+                        <label class="param__name" for="cat1">up to 59 inches</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat2" type="checkbox">
+                        <label class="param__name" for="cat2">59-118 inches</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat3" type="checkbox">
+                        <label class="param__name" for="cat3">from 118 inches</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile__filters-group">
+                <div class="mobile__filters-group-name">Category</div>
+                <div class="mobile__filters-value">
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat1" type="checkbox">
+                        <label class="param__name" for="cat1">Animals and birds</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat2" type="checkbox">
+                        <label class="param__name" for="cat2">Houses</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat3" type="checkbox">
+                        <label class="param__name" for="cat3">Sights</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat4" type="checkbox">
+                        <label class="param__name" for="cat4">People</label>
+                    </div>
+                    <div class="filter__data-param mobile-filter-param">
+                        <input class="param__checkbox" id="cat5" type="checkbox">
+                        <label class="param__name" for="cat5">Dinosaurs</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile__filters-apply-btn btn primary-btn">
+        <div class="apply-btn-name">Apply filters</div>
+        <div class="apply-btn-count"><span>64</span> results</div>
+    </div>
+</div>
 </body>
 <script src="./src/js/script.js"></script>
 <script src="./src/js/slide-stories.js"></script>
