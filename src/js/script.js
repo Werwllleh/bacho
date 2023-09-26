@@ -151,6 +151,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+
+
     mobileMenu.addEventListener('click', (e) => {
         if (e.target === mobileMenu) {
             burger.classList.remove('burger-close');
