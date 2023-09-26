@@ -76,6 +76,9 @@
     .product-sizes {
         display: none;
     }
+    .breadcrumbs {
+        margin: 70px 0 0 0 !important;
+    }
 }
 
 @media (max-width: 800px) {
@@ -86,6 +89,10 @@
     .mobile-card-name {
         display: block;
         margin: 32px 0 0 0;
+    }
+
+    .search__input {
+        font-size: 16px;
     }
 
     .product__photos {
@@ -139,6 +146,9 @@
         left: 20px;
         bottom: 40px;
     }
+    .product__slider .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -178,7 +188,17 @@
         background-image: url(../img/icons/radio-button-click.svg);
         background-size: 18px 18px;
     }
-
+    .filter__data-param:hover {
+        background: none;
+    }
+    .product__footer-title {
+        margin: 0 0 32px 0;
+        font-size: 20px;
+        letter-spacing: 0.1px;
+    }
+    .product__footer-filter {
+         padding: 0;
+    }
 }
 
 @media (max-width: 500px) {

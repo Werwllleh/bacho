@@ -101,7 +101,7 @@
 }
 
 .product-card__column-btn:after {
-	background: rgb(181 181 181 / 50%);
+	background: transparent;
 	bottom: 2px;
 	content: '';
 	height: 3px;
