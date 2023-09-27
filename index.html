@@ -564,78 +564,95 @@
                     </div>
                     <div class="filter__params">
                         <div data-filter="size" class="filter__data">
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="size1" type="checkbox"/>
-                                <label class="param__name" for="size1">up to 59 inches</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="size2" type="checkbox"/>
-                                <label class="param__name" for="size2">59-118 inches</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="size3" type="checkbox"/>
-                                <label class="param__name" for="size3">from 118 inches</label>
-                            </div>
+                            <label class="filter__data-param">
+                                <input name="size" type="checkbox" value="up to 59 inches"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name" >up to 59 inches</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="size" value="59-118 inches" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name" >59-118 inches</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="size" value="from 118 inches" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name" >from 118 inches</span>
+                            </label>
                         </div>
                         <div data-filter="category" class="filter__data">
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat1" type="checkbox"/>
-                                <label class="param__name" for="cat1">Animals and birds</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat2" type="checkbox"/>
-                                <label class="param__name" for="cat2">Houses</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat3" type="checkbox"/>
-                                <label class="param__name" for="cat3">Sights</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat4" type="checkbox"/>
-                                <label class="param__name" for="cat4">People</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat5" type="checkbox"/>
-                                <label class="param__name" for="cat5">Dinosaurs</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat6" type="checkbox"/>
-                                <label class="param__name" for="cat6">Mushrooms</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat7" type="checkbox"/>
-                                <label class="param__name" for="cat7">Exclusive</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat8" type="checkbox"/>
-                                <label class="param__name" for="cat8">Benches</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox" id="cat9" type="checkbox"/>
-                                <label class="param__name" for="cat9">Others</label>
-                            </div>
+                            <label class="filter__data-param">
+                                <input name="category" value="Animals and birds" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Animals and birds</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="category" value="Houses" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Houses</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="category" value="Sights" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Sights</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="category" value="People" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">People</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="category" value="Dinosaurs" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Dinosaurs</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input value="Mushrooms" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Mushrooms</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="category" value="Exclusive" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Exclusive</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="category" value="Benches" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Benches</span>
+                            </label>
+                            <label class="filter__data-param">
+                                <input name="category" value="Others" type="checkbox"/>
+                                <span class="param__checkbox"></span>
+                                <span class="param__name">Others</span>
+                            </label>
                         </div>
                         <div data-filter="sort" class="filter__data">
-                            <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="sort1" checked type="radio" name="sort"/>
-                                <label class="param__name" for="sort1">Most popular</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="sort2" type="radio" name="sort"/>
-                                <label class="param__name" for="sort2">Price: highest</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="sort3" type="radio" name="sort"/>
-                                <label class="param__name" for="sort3">Price: lowest</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="sort4" type="radio" name="sort"/>
-                                <label class="param__name" for="sort4">Size: larger</label>
-                            </div>
-                            <div class="filter__data-param">
-                                <input class="param__checkbox sort" id="sort5" type="radio" name="sort"/>
-                                <label class="param__name" for="sort5">Size: smaller</label>
-                            </div>
+                            <label class="filter__data-param">
+                                <input value="Most popular" checked type="radio" name="sort"/>
+                                <span class="param__checkbox-sort"></span>
+                                <label class="param__name">Most popular</label>
+                            </label>
+                            <label class="filter__data-param">
+                                <input value="Price: highest" type="radio" name="sort"/>
+                                <span class="param__checkbox-sort"></span>
+                                <label class="param__name">Price: highest</label>
+                            </label>
+                            <label class="filter__data-param">
+                                <input value="Price: lowest" type="radio" name="sort"/>
+                                <span class="param__checkbox-sort"></span>
+                                <label class="param__name">Price: lowest</label>
+                            </label>
+                            <label class="filter__data-param">
+                                <input value="Size: larger" type="radio" name="sort"/>
+                                <span class="param__checkbox-sort"></span>
+                                <label class="param__name">Size: larger</label>
+                            </label>
+                            <label class="filter__data-param">
+                                <input value="Size: smaller" type="radio" name="sort"/>
+                                <span class="param__checkbox-sort"></span>
+                                <label class="param__name">Size: smaller</label>
+                            </label>
                         </div>
                     </div>
                     <div class="filter__selected_params">
@@ -696,16 +713,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes sizes-show">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -722,7 +743,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -783,16 +804,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes sizes-show">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -809,7 +834,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -870,16 +895,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -896,7 +925,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -957,16 +986,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -983,7 +1016,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1044,16 +1077,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1070,7 +1107,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1131,16 +1168,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1157,7 +1198,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1218,16 +1259,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1244,7 +1289,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1305,16 +1350,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1331,7 +1380,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1392,16 +1441,20 @@
                                     <div class="product-sizes__header">
                                         <div class="product-sizes__header-title">Dimensions</div>
                                         <div class="size__switches">
-                                            <div class="size__switch-btn">
-                                                inches
-                                            </div>
-                                            <div class="size__switch-btn">
-                                                metres
-                                            </div>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" checked value="inches">
+                                                <span class="size__switch-btn-name">inches</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
+                                            <label class="size__switch-btn">
+                                                <input name="product-size" type="radio" value="metres">
+                                                <span class="size__switch-btn-name">metres</span>
+                                                <span class="size__switch-btn-border"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="sizes__table">
-                                        <div data-size="inches" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1418,7 +1471,7 @@
                                                 <div class="size__row-size">00х00х00</div>
                                             </div>
                                         </div>
-                                        <div data-size="metres" class="sizes">
+                                        <div class="sizes">
                                             <div class="size__row">
                                                 <div class="size__row-name">Placeholder</div>
                                                 <div class="size__row-separator"></div>
@@ -1598,68 +1651,101 @@
             <div class="mobile__filters-group">
                 <div class="mobile__filters-group-name">Sort by</div>
                 <div class="mobile__filters-value">
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox sort" id="sort1" checked type="radio" name="sort"/>
-                        <label class="param__name" for="sort1">Most popular</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox sort" id="sort2" type="radio" name="sort"/>
-                        <label class="param__name" for="sort2">Price: highest</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox sort" id="sort3" type="radio" name="sort"/>
-                        <label class="param__name" for="sort3">Price: lowest</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox sort" id="sort4" type="radio" name="sort"/>
-                        <label class="param__name" for="sort4">Size: larger</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox sort" id="sort5" type="radio" name="sort"/>
-                        <label class="param__name" for="sort5">Size: smaller</label>
-                    </div>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input value="Most popular" checked="" type="radio" name="sort">
+                        <span class="param__checkbox-sort"></span>
+                        <label class="param__name">Most popular</label>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input value="Price: highest" type="radio" name="sort">
+                        <span class="param__checkbox-sort"></span>
+                        <label class="param__name">Price: highest</label>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input value="Price: lowest" type="radio" name="sort">
+                        <span class="param__checkbox-sort"></span>
+                        <label class="param__name">Price: lowest</label>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input value="Size: larger" type="radio" name="sort">
+                        <span class="param__checkbox-sort"></span>
+                        <label class="param__name">Size: larger</label>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input value="Size: smaller" type="radio" name="sort">
+                        <span class="param__checkbox-sort"></span>
+                        <label class="param__name">Size: smaller</label>
+                    </label>
                 </div>
             </div>
             <div class="mobile__filters-group">
                 <div class="mobile__filters-group-name">Size</div>
                 <div class="mobile__filters-value">
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat1" type="checkbox">
-                        <label class="param__name" for="cat1">up to 59 inches</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat2" type="checkbox">
-                        <label class="param__name" for="cat2">59-118 inches</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat3" type="checkbox">
-                        <label class="param__name" for="cat3">from 118 inches</label>
-                    </div>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="size" type="checkbox" value="up to 59 inches">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">up to 59 inches</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="size" type="checkbox" value="59-118 inches">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">59-118 inches</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="size" type="checkbox" value="from 118 inches">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">from 118 inches</span>
+                    </label>
                 </div>
             </div>
             <div class="mobile__filters-group">
                 <div class="mobile__filters-group-name">Category</div>
                 <div class="mobile__filters-value">
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat1" type="checkbox">
-                        <label class="param__name" for="cat1">Animals and birds</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat2" type="checkbox">
-                        <label class="param__name" for="cat2">Houses</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat3" type="checkbox">
-                        <label class="param__name" for="cat3">Sights</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat4" type="checkbox">
-                        <label class="param__name" for="cat4">People</label>
-                    </div>
-                    <div class="filter__data-param mobile-filter-param">
-                        <input class="param__checkbox" id="cat5" type="checkbox">
-                        <label class="param__name" for="cat5">Dinosaurs</label>
-                    </div>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="Animals and birds" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Animals and birds</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="Houses" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Houses</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="Sights" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Sights</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="People" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">People</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="Dinosaurs" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Dinosaurs</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input value="Mushrooms" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Mushrooms</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="Exclusive" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Exclusive</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="Benches" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Benches</span>
+                    </label>
+                    <label class="filter__data-param mobile-filter-param">
+                        <input name="category" value="Others" type="checkbox">
+                        <span class="param__checkbox"></span>
+                        <span class="param__name">Others</span>
+                    </label>
                 </div>
             </div>
         </div>

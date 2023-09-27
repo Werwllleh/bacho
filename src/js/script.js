@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const catalogFilters = document.querySelectorAll('.filter__checkbox');
 
-    const switchSizes = document.querySelectorAll('.size__switch-btn');
+    const switchSizes = document.querySelectorAll('.size__switch-btn input');
     const switchFilterBtns = document.querySelectorAll('.product__footer-filter_btn');
 
     const catalogCards = document.querySelectorAll('.row__card');
@@ -70,7 +70,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
                 document.querySelector('[data-filter="sort"]').classList.toggle('filer__data-show');
             }
+
+            /*document.addEventListener( 'click', (e) => {
+                const withinBoundaries = e.composedPath().includes(filter);
+
+                if ( ! withinBoundaries ) {
+                    document.querySelector('input#size').checked = false;
+                    document.querySelector('input#category').checked = false;
+                    document.querySelector('input#sort').checked = false;
+                    document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
+                    document.querySelector('[data-filter="sort"]').classList.remove('filer__data-show');
+                    document.querySelector('[data-filter="category"]').classList.remove('filer__data-show');
+
+                    // filter.style.display = 'none'; // скрываем элемент т к клик был за его пределами
+                }
+            })*/
         });
+
     });
 
     const sortingRadioButtons = document.querySelectorAll('input[name=sort]');
@@ -78,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     sortingRadioButtons.forEach((sort) => {
         sort.addEventListener('click', () => {
-            labelSort.innerHTML = document.querySelector("label[for='" + sort.id + "']").innerHTML;
+            labelSort.innerHTML = sort.value;
         })
     })
 
@@ -133,12 +149,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /*=======================SWITCH SIZES=======================*/
 
-    const dataInches = document.querySelectorAll('[data-size="inches"]');
-    const dataMetres = document.querySelectorAll('[data-size="metres"]');
+    const cardSizes = document.querySelectorAll('.sizes__table');
 
-    switchSizes.forEach((btn) => {
+    switchSizes.forEach((btn, index) => {
         btn.addEventListener('click', (e) => {
-            console.log(e.currentTarget)
+
         })
     });
 
