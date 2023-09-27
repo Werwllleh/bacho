@@ -216,7 +216,6 @@ document.querySelectorAll('.size__switch-btn-name').forEach((button) => {
         });
         this.classList.add('size__switch-btn_active');
 
-        console.log()
 
         this.closest('.product-sizes__inner')
             .querySelectorAll('.sizes')
