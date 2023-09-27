@@ -229,7 +229,7 @@ body.modal-open {
     top: 0;
     width: 100%;
     z-index: 5;
-    background-color: transparent;
+    background-color: #fff;
     transition: .3s;
 }
 
@@ -552,15 +552,19 @@ body.modal-open {
 
 
 .search__spoiler {
-    position: absolute;
-    top: -400%;
+    position: fixed;
+    top: 0;
     left: 0;
     height: 100vh;
     width: 100%;
-    transition: top .25s ease-in-out;
+    transition: transform .25s ease-in-out, opacity .3s;
     background-color: #FFFFFF;
     padding: 0 0 300px 0;
-    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transform: translateY(-100%);
+    opacity: 0;
+    z-index: 4;
 }
 
 .search__spoiler-field {
@@ -579,7 +583,8 @@ body.modal-open {
 
 .show__spoiler {
     top: 0;
-    z-index: 2;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .search__input {

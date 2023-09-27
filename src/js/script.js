@@ -67,21 +67,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
                 document.querySelector('[data-filter="sort"]').classList.toggle('filer__data-show');
             }
+        });
+    });
 
-            /*document.addEventListener( 'click', (e) => {
-                const withinBoundaries = e.composedPath().includes(filter);
+    const filterButtons = document.querySelectorAll('.filter__field');
+    const filterInners = document.querySelectorAll('.filter__data');
+    document.addEventListener('mouseup', function (e) {
+        filterInners.forEach((filter) => {
+            const target = e.target;
+            const isCurrentFilter = target === filter || filter.contains(target);
+            const isCurrentButton = Array.from(filterButtons).filter((button) => button === target || button.contains(target))[0];
+            const isFilterActive = filter.classList.contains('filer__data-show');
 
-                if ( ! withinBoundaries ) {
-                    document.querySelector('input#size').checked = false;
-                    document.querySelector('input#category').checked = false;
-                    document.querySelector('input#sort').checked = false;
-                    document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
-                    document.querySelector('[data-filter="sort"]').classList.remove('filer__data-show');
-                    document.querySelector('[data-filter="category"]').classList.remove('filer__data-show');
-
-                    // filter.style.display = 'none'; // скрываем элемент т к клик был за его пределами
-                }
-            })*/
+            if (!isCurrentFilter && !isCurrentButton && isFilterActive) {
+                filter.classList.remove('filer__data-show');
+                filterButtons.forEach((button) => {
+                    button.querySelector('.filter__checkbox').checked = false;
+                });
+            }
         });
     });
 
@@ -94,7 +97,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    searchBtn.addEventListener('click', () => {
+    searchBtn.addEventListener('click', (e) => {
+        e.preventDefault();
         spoilerSearch.classList.toggle('show__spoiler');
         body.classList.toggle('modal-open');
         spoilerSearchInputs.forEach((input) => {
