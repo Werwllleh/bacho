@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const spoilerSearchClean = document.querySelectorAll('.clearSearchInput');
     const spoilerSearchContent = document.querySelector('.search__row');
     const body = document.querySelector('body');
-    const header = document.querySelector('header');
 
     const burger = document.querySelector('.header-burger');
     const mobileMenu = document.querySelector('.menumobile');
@@ -17,15 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const catalogCards = document.querySelectorAll('.row__card');
 
-    window.addEventListener('scroll', function () {
-        const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (currentScrollTop > 65) {
-            header.classList.add('header-fixed');
-        } else {
-            header.classList.remove('header-fixed');
-        }
-    });
+    // window.addEventListener('scroll', function () {
+    //     const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    // });
 
     catalogCards.forEach((card) => {
         card.addEventListener('mouseenter', (e) => {
@@ -46,7 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    catalogFilters.forEach((filter) => {
+
+    /*catalogFilters.forEach((filter) => {
         filter.addEventListener('click', (e) => {
             if (e.target.id === 'size') {
                 document.querySelector('input#category').checked = false;
@@ -66,6 +60,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelector('[data-filter="category"]').classList.remove('filer__data-show');
                 document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
                 document.querySelector('[data-filter="sort"]').classList.toggle('filer__data-show');
+            }
+        });
+    });*/
+
+    const checkboxes = document.querySelectorAll('.filter__checkbox');
+
+    checkboxes.forEach(function (checkbox) {
+        checkbox.addEventListener('change', function () {
+            const filterCategoryButton = document.querySelector(`[data-filter=${this.id}]`)
+
+            if (this.checked) {
+                filterCategoryButton.classList.add('filer__data-show');
+                checkbox.addEventListener('click', function () {
+                    filterCategoryButton.classList.remove('filer__data-show');
+                })
+
+                checkboxes.forEach(function (otherCheckbox) {
+                    if (otherCheckbox !== checkbox) {
+                        otherCheckbox.checked = false;
+                        document.querySelector(`[data-filter=${otherCheckbox.id}]`).classList.remove('filer__data-show');
+                    }
+                });
             }
         });
     });
@@ -228,4 +244,41 @@ document.querySelectorAll('.size__switch-btn-name').forEach((button) => {
             });
         this.closest('.product-sizes__inner').querySelectorAll('.sizes')[index].classList.add('sizes_show');
     });
+});
+
+new Swiper('.category__slider', {
+    direction: 'horizontal',
+    spaceBetween: 12,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1.2,
+        },
+        375: {
+            slidesPerView: 1.8,
+        },
+        480: {
+            slidesPerView: 2.3,
+        },
+        640: {
+            slidesPerView: 3.5,
+        },
+        900: {
+            slidesPerView: 4.5,
+        },
+        1200: {
+            slidesPerView: 6,
+        }
+    }
+});
+
+new Swiper('.product-images-mobile-slider', {
+    slidesPerView: 'auto',
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: false,
+    navigation: false,
+    scrollbar: false,
 });

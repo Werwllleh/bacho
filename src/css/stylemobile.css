@@ -36,6 +36,14 @@
         height: 60px;
     }
 
+    .product-images {
+        display: none !important;
+    }
+
+    .product-images-mobile-slider {
+        display: block;
+    }
+
     .center-logo img {
         max-width: 71px;
     }
