@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const burger = document.querySelector('.header-burger');
     const mobileMenu = document.querySelector('.menumobile');
 
-    const catalogFilters = document.querySelectorAll('.filter__checkbox');
-
     const switchSizes = document.querySelectorAll('.size__switch-btn input');
     const switchFilterBtns = document.querySelectorAll('.product__footer-filter_btn');
 
@@ -39,30 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-
-    /*catalogFilters.forEach((filter) => {
-        filter.addEventListener('click', (e) => {
-            if (e.target.id === 'size') {
-                document.querySelector('input#category').checked = false;
-                document.querySelector('input#sort').checked = false;
-                document.querySelector('[data-filter="sort"]').classList.remove('filer__data-show');
-                document.querySelector('[data-filter="category"]').classList.remove('filer__data-show');
-                document.querySelector('[data-filter="size"]').classList.toggle('filer__data-show');
-            } else if (e.target.id === 'category') {
-                document.querySelector('input#size').checked = false;
-                document.querySelector('input#sort').checked = false;
-                document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
-                document.querySelector('[data-filter="sort"]').classList.remove('filer__data-show');
-                document.querySelector('[data-filter="category"]').classList.toggle('filer__data-show');
-            } else {
-                document.querySelector('input#size').checked = false;
-                document.querySelector('input#category').checked = false;
-                document.querySelector('[data-filter="category"]').classList.remove('filer__data-show');
-                document.querySelector('[data-filter="size"]').classList.remove('filer__data-show');
-                document.querySelector('[data-filter="sort"]').classList.toggle('filer__data-show');
-            }
-        });
-    });*/
 
     const checkboxes = document.querySelectorAll('.filter__checkbox');
 
