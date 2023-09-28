@@ -1028,7 +1028,6 @@ body.modal-open {
 }
 
 .row__card-inner {
-    z-index: 2;
     background-color: #ffffff;
     border: 1px solid transparent;
     padding: 12px;

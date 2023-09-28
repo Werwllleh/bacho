@@ -256,3 +256,54 @@ new Swiper('.product-images-mobile-slider', {
     navigation: false,
     scrollbar: false,
 });
+
+const options = {
+    Toolbar: {
+        display: {
+            left: [],
+            middle: [],
+            right: ['close'],
+        },
+    },
+    Thumbs: {
+        type: 'classic',
+    },
+};
+
+Fancybox.bind('[data-fancybox="product_images"]', options);
+
+new Swiper('.product__slider', {
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
+new Swiper('.product__footer-slider', {
+    direction: 'horizontal',
+    loop: true,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1.3,
+        },
+        480: {
+            slidesPerView: 1.9,
+        },
+        640: {
+            slidesPerView: 3.5,
+        },
+        900: {
+            slidesPerView: 3.3,
+        },
+    },
+});
