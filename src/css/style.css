@@ -1893,7 +1893,7 @@ input:checked + .param__checkbox-sort:hover {
     background-color: #ffffff;
 
     /*height: 80%;*/
-    height: 700px;
+    height: 680px;
     width: 100%;
     /*overflow: auto;*/
     transform: translateY(-150%);
