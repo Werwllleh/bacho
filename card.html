@@ -2625,6 +2625,19 @@
 <script src="./src/js/slide-stories.js"></script>
 
 <script type="module">
+    const options = {
+        Toolbar: {
+            display: {
+                left: [],
+                middle: [],
+                right: ['close'],
+            },
+        },
+        Thumbs: {
+            type: 'classic',
+        },
+    };
 
+    Fancybox.bind('[data-fancybox="product_images"]', options);
 </script>
 </html>

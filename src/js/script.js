@@ -257,20 +257,7 @@ new Swiper('.product-images-mobile-slider', {
     scrollbar: false,
 });
 
-const options = {
-    Toolbar: {
-        display: {
-            left: [],
-            middle: [],
-            right: ['close'],
-        },
-    },
-    Thumbs: {
-        type: 'classic',
-    },
-};
 
-Fancybox.bind('[data-fancybox="product_images"]', options);
 
 new Swiper('.product__slider', {
     direction: 'horizontal',
