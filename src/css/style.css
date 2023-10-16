@@ -797,7 +797,7 @@ body.modal-open {
 .preview__card-body {
     position: relative;
     max-width: calc(50% - 12px);
-    max-height: 710px;
+    /*max-height: 710px;*/
 }
 
 .preview__card-body:nth-child(3n) {
@@ -811,7 +811,7 @@ body.modal-open {
     height: 100%;
     max-height: 300px;
     left: 0;
-    bottom: 4px;
+    bottom: 0;
     background: linear-gradient(180deg, rgba(28, 36, 46, 0.00) 0%, rgba(28, 36, 46, 0.50) 100%);
 }
 
