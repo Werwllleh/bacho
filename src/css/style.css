@@ -811,7 +811,7 @@ body.modal-open {
     height: 100%;
     max-height: 300px;
     left: 0;
-    bottom: 0;
+    bottom: 4px;
     background: linear-gradient(180deg, rgba(28, 36, 46, 0.00) 0%, rgba(28, 36, 46, 0.50) 100%);
 }
 
