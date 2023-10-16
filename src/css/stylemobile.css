@@ -81,6 +81,13 @@
     .breadcrumbs {
         margin: 70px 0 0 0 !important;
     }
+    .product__footer-slider {
+        padding: 0 ;
+    }
+
+    .product__wrapper {
+        padding: 0 0 70px 0;
+    }
 }
 
 @media (max-width: 800px) {
@@ -200,6 +207,9 @@
     }
     .product__footer-filter {
          padding: 0;
+    }
+    .product__wrapper {
+        padding: 0 0 50px 0;
     }
 }
 
