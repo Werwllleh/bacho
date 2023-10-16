@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('.header');
     const searchBtn = document.querySelector('#searchBtn');
     const spoilerSearch = document.querySelector('.search__spoiler');
     const spoilerSearchInputs = document.querySelectorAll('.search__input');
@@ -17,6 +18,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // window.addEventListener('scroll', function () {
     //     const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
     // });
+
+
+
+    function headerWatcher() {
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+        if (window.scrollY < 0.1) {
+            header.classList.remove('header--scroll')
+        } else {
+            header.classList.add('header--scroll')
+        }
+        requestAnimationFrame(headerWatcher)
+    }
+
+    headerWatcher();
 
     catalogCards.forEach((card) => {
         card.addEventListener('mouseenter', (e) => {
@@ -90,11 +105,16 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBtn.addEventListener('click', (e) => {
         e.preventDefault();
         spoilerSearch.classList.toggle('show__spoiler');
+        header.classList.toggle('header--color')
         body.classList.toggle('modal-open');
         spoilerSearchInputs.forEach((input) => {
             input.focus();
         });
     });
+
+    if (!spoilerSearch.classList.contains('show__spoiler')) {
+        header.classList.remove('header--color');
+    }
 
     spoilerSearchClean.forEach((btn) => {
         btn.addEventListener('click', (e) => {
