@@ -243,6 +243,40 @@ document.querySelectorAll('.size__switch-btn-name').forEach((button) => {
 new Swiper('.category__slider', {
     direction: 'horizontal',
     spaceBetween: 12,
+    navigation: {
+        nextEl: '.category__slider-arrow-next',
+        prevEl: '.category__slider-arrow-prev',
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1.2,
+        },
+        375: {
+            slidesPerView: 1.8,
+        },
+        480: {
+            slidesPerView: 2.3,
+        },
+        640: {
+            slidesPerView: 3.5,
+        },
+        900: {
+            slidesPerView: 4.5,
+        },
+        1200: {
+            slidesPerView: 6,
+        }
+    }
+});
+
+new Swiper('.other__shape_slider', {
+    direction: 'horizontal',
+    spaceBetween: 12,
+    navigation: {
+        nextEl: '.other__shape_slider-arrow-next',
+        prevEl: '.other__shape_slider-arrow-prev',
+    },
     breakpoints: {
         // when window width is >= 320px
         320: {
@@ -290,14 +324,18 @@ new Swiper('.product__slider', {
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.product__slider-arrow-next',
+        prevEl: '.product__slider-arrow-prev',
     },
 });
 
 new Swiper('.product__footer-slider', {
     direction: 'horizontal',
-    loop: true,
+    loop: false,
+    navigation: {
+        nextEl: '.product__footer-slider-arrow-next',
+        prevEl: '.product__footer-slider-arrow-prev',
+    },
     breakpoints: {
         // when window width is >= 320px
         320: {

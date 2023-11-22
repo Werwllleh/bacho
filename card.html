@@ -532,7 +532,7 @@
             <div class="product__body">
                 <div class="product__photos">
                     <div class="product__slider-body">
-                        <div class="product__slider">
+                        <div class="product__slider swiper">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
@@ -580,8 +580,8 @@
                             <!-- If we need pagination -->
                             <div class="swiper-pagination"></div>
                             <!-- If we need navigation buttons -->
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev product__slider-arrow-prev custom-arrow custom-arrow-prev"></div>
+                            <div class="swiper-button-next product__slider-arrow-next custom-arrow custom-arrow-next"></div>
                         </div>
                     </div>
                     <h1 class="product__name mobile-card-name">Elephant big</h1>
@@ -665,8 +665,16 @@
         <div class="container">
             <div class="product__footer-title">You may also like</div>
             <div class="product__footer-filter">
-                <div class="product__footer-filter_btn filter-btn__active">Similar topiary</div>
-                <div class="product__footer-filter_btn">Same size</div>
+                <div class="product__footer-filter-switch-buttons">
+                    <div class="product__footer-filter_btn filter-btn__active">Similar topiary</div>
+                    <div class="product__footer-filter_btn">Same size</div>
+                </div>
+<!--                <div class="product__footer-filter-slider-arrows">-->
+<!--                    <div class="custom-slider-navigation">-->
+<!--                        <div class="swiper-button-next product__footer-slider-arrow-next custom-arrow custom-arrow-next"></div>-->
+<!--                        <div class="swiper-button-prev product__footer-slider-arrow-prev custom-arrow custom-arrow-prev"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
             <div class="product-footer__slider-outer">
                 <div class="product__footer-slider product__footer-slider_active">
@@ -1635,6 +1643,12 @@
                             </div>
                         </div>
                     </div>
+                    <div class="product__footer-slider-nav">
+                        <div class="custom-slider-navigation">
+                            <div class="swiper-button-prev product__footer-slider-arrow-prev custom-arrow custom-arrow-prev"></div>
+                            <div class="swiper-button-next product__footer-slider-arrow-next custom-arrow custom-arrow-next"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="product__footer-slider">
@@ -2592,6 +2606,12 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="product__footer-slider-nav">
+                    <div class="custom-slider-navigation">
+                        <div class="swiper-button-prev product__footer-slider-arrow-prev custom-arrow custom-arrow-prev"></div>
+                        <div class="swiper-button-next product__footer-slider-arrow-next custom-arrow custom-arrow-next"></div>
                     </div>
                 </div>
             </div>
